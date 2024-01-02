@@ -79,10 +79,20 @@ _G.packer_plugins = {
     path = "/home/jetimob/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "/home/jetimob/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/jetimob/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "/home/jetimob/.local/share/nvim/site/pack/packer/start/cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
   },
   harpoon = {
     loaded = true,
@@ -93,6 +103,31 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jetimob/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
+  },
+  ["lspkind-nvim"] = {
+    loaded = true,
+    path = "/home/jetimob/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
+    url = "https://github.com/onsails/lspkind-nvim"
+  },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "/home/jetimob/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason-null-ls.nvim"] = {
+    loaded = true,
+    path = "/home/jetimob/.local/share/nvim/site/pack/packer/start/mason-null-ls.nvim",
+    url = "https://github.com/jay-babu/mason-null-ls.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/home/jetimob/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/home/jetimob/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -144,6 +179,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jetimob/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-vue"] = {
+    loaded = true,
+    path = "/home/jetimob/.local/share/nvim/site/pack/packer/start/vim-vue",
+    url = "https://github.com/storyn26383/vim-vue"
   }
 }
 
