@@ -20,6 +20,14 @@ require('mason-lspconfig').setup({
     handlers = {
         lsp_zero.default_setup,
     },
+    settings = {
+        Lua = {
+            diagnostics = {
+                -- Get the language server to recognize the `vim` global
+                globals = { 'vim' },
+            },
+        },
+    },
 })
 
 require('null-ls').setup({
